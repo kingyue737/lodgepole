@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", "Quicksand", sans-serif;
+  background-color: hsl(345, 100%, 25%);
+}
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.lovers {
+  margin: 100px auto;
+  width: 600px;
+  display: block;
+}
+
+.postcard {
+  width: 700px;
+  height: 450px;
+  background-color: #f7f7f7;
+  margin: 100px auto;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  -ms-transform: rotate(2.5deg); /* IE 9 */
+  -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
+  transform: rotate(2.5deg);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #f7f7f7;
+  margin-bottom: -15px;
+}
+
+.letter {
+  flex-basis: 60%;
+  position: relative;
+}
+
+p {
+  font-size: 1.3em;
+}
+.main-body {
+  /* font-size: 1.3em; */
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+.postcode {
+  position: absolute;
+  right: 10px;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.postcode span {
+  border: 1px solid;
+  padding: 3px;
+}
+
+.duckyo {
+  height: 150px;
+  float: left;
+  mix-blend-mode: darken;
+}
+
+.inscribe {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+/* .date{ } */
+
+/*animation*/
+.postcard:hover,
+.postcard:active,
+.postcard:focus {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.mail_stamp {
+  width: 100px;
+  float: right;
+}
+
+.address {
+  position: relative;
+}
+#address {
+  margin-top: 120px;
+  text-decoration: underline;
+}
+
+.push {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+/*footer*/
+footer {
+  margin: 2em auto;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+
+footer b {
+  font-size: 2em;
+}
