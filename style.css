@@ -214,17 +214,18 @@ footer b {
   }
 }
 
-.envelope-wrapper:hover .lid.one {
-  transform: rotateX(90deg);
-  transition-delay: 0s;
-}
-
-.envelope-wrapper:hover .lid.two {
-  transform: rotateX(180deg);
-  transition-delay: 0.25s;
-}
-
-.envelope-wrapper:hover .letter {
-  transform: translateY(-50px);
-  transition-delay: 0.5s;
+.envelope-wrapper:hover,
+.envelope-wrapper:active {
+  .lid.one {
+    transform: rotateX(90deg);
+    transition-delay: 0s;
+  }
+  .lid.two {
+    transform: rotateX(180deg);
+    transition-delay: 0.25s;
+  }
+  .letter {
+    transform: translateY(-50px);
+    transition-delay: 0.5s;
+  }
 }
