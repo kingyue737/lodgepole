@@ -215,7 +215,8 @@ footer b {
 }
 
 .envelope-wrapper:hover,
-.envelope-wrapper:active {
+.envelope-wrapper:active,
+.envelope-wrapper:focus {
   .lid.one {
     transform: rotateX(90deg);
     transition-delay: 0s;
